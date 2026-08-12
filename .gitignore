@@ -1,0 +1,11 @@
+# Rendered output and Quarto scratch space
+/_site/
+/.quarto/
+
+# Keep /_freeze/ IN version control — it's what lets CI skip running your code.
+
+.DS_Store
+.Rproj.user/
+__pycache__/
+
+**/*.quarto_ipynb

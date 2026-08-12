@@ -1,0 +1,8 @@
+# Applies to every .qmd under projects/. Anything set in an individual page
+# wins over what's here, so this is the place for the boilerplate you'd
+# otherwise repeat in twenty files.
+title-block-style: default
+toc: true
+toc-depth: 2
+image-alt: "Project thumbnail"
+freeze: auto

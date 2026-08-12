@@ -1,0 +1,32 @@
+---
+title: "Example gallery"
+subtitle: "Filter by topic, search by person, sort by date."
+listing:
+  id: gallery
+  contents:
+    - projects
+    - projects/external.yml
+  type: grid
+  grid-columns: 3
+  image-height: 200px
+  image-placeholder: images/placeholder.svg
+  fields: [image, title, description, author, categories, date]
+  field-display-names:
+    author: "Contributors"
+  # Clickable topic facets, built automatically from each item's `categories`.
+  categories: cloud
+  sort: "date desc"
+  sort-ui: [date, title, author]
+  # The typeahead box searches only these fields, so typing a surname narrows
+  # the gallery to that person's work.
+  filter-ui: [title, description, author, categories]
+  page-size: 12
+  feed: false
+page-layout: full
+toc: false
+---
+
+Here are some example projects from groups around NZCBI.
+
+::: {#gallery}
+:::

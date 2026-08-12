@@ -1,0 +1,60 @@
+/*-- scss:defaults --*/
+
+// Two variables to change if you want the site to look like the group's
+// existing pages rather than stock Bootstrap.
+$primary: #1f5673;
+$body-color: #22282c;
+
+$link-color: $primary;
+$font-size-root: 17px;
+$grid-gutter-width: 1.6rem;
+
+/*-- scss:rules --*/
+
+// Cards: equal heights, quieter borders, a hint of lift on hover.
+.quarto-grid-item {
+  border-radius: 6px;
+  transition: box-shadow 0.15s ease-in-out, transform 0.15s ease-in-out;
+
+  .card-title {
+    font-size: 1.05rem;
+    line-height: 1.35;
+  }
+
+  .card-img {
+    object-fit: cover;
+    background-color: #eef1f3;
+  }
+}
+
+.quarto-grid-item:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.09);
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quarto-grid-item,
+  .quarto-grid-item:hover {
+    transition: none;
+    transform: none;
+  }
+}
+
+// Contributor names read as metadata, not as a heading.
+.listing-author {
+  font-size: 0.85rem;
+  color: rgba(34, 40, 44, 0.65);
+}
+
+// Topic tags: pill-shaped, subdued until hovered.
+.listing-category,
+.quarto-category {
+  border-radius: 999px !important;
+  font-size: 0.72rem !important;
+  text-transform: none !important;
+  opacity: 0.8;
+
+  &:hover {
+    opacity: 1;
+  }
+}

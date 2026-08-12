@@ -1,0 +1,20 @@
+- path: https://github.com/mcorder/Immunoproteome
+  title: "Immunoproteome"
+  description: >
+    This repository contains R Markdown analysis scripts and their knitted HTML reports for the first immunoproteome published for any endangered mammal species (black rhinoceros).
+  author:
+    - Molly Corder
+  date: 2026-03-14
+  categories: [Immunoproteomics, Rhinos, RMarkdown]
+  image: /images/placeholder.svg
+
+- path: https://github.com/MikeTrizna/quarto_gallery
+  title: "Project 2"
+  description: >
+    Description 2
+  author:
+    - Author 1
+    - Author 2
+  date: 2026-08-12
+  categories: [Open data, Python]
+  image: /images/placeholder.svg

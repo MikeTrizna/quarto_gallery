@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Research Gallery"
+  description: "Projects, tools, and datasets from the group."
+  site-url: "https://miketrizna.github.io/research-gallery/"
+  repo-url: "https://github.com/MikeTrizna/quarto_gallery"
+  repo-actions: [issue, edit]
+  navbar:
+    left:
+      - href: index.qmd
+        text: Gallery
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: "https://github.com/MikeTrizna/quarto_gallery"
+        aria-label: "Repository"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: true
+    anchor-sections: true
+
+# Cache computational output so CI doesn't need R/Python to rebuild pages whose
+# code hasn't changed. Commit the _freeze/ directory.
+execute:
+  freeze: auto

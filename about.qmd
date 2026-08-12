@@ -1,0 +1,28 @@
+---
+title: "About this gallery"
+---
+
+What this site is for, who's in the group, and how to get in touch.
+
+## Adding a project
+
+1. Make a folder under `projects/` named after the project, with an `index.qmd`
+   inside it. Copy the front matter from an existing one.
+2. Fill in `title`, `description`, `author`, `date`, and `categories`. Those five
+   fields are what the gallery sorts, searches, and filters on — a project with
+   no `categories` won't appear under any topic tag.
+3. Drop a `thumbnail.png` in the folder (roughly 3:2, 900px wide is plenty) and
+   point `image:` at it.
+4. Push to `main`. The site rebuilds itself.
+
+If the project has no home here — it's a repo, a paper, or an app somewhere else
+— add an entry to `projects/external.yml` instead of making a page.
+
+## Category vocabulary
+
+Keep this list short and shared, or the topic filter turns into noise. Current
+tags:
+
+| Tag | Use it for |
+|-----|------------|
+| Open data | Published, citable datasets |

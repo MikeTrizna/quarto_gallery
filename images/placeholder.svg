@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="No thumbnail yet">
+  <rect width="900" height="600" fill="#eef1f3"/>
+  <g fill="none" stroke="#c3ccd2" stroke-width="6">
+    <circle cx="450" cy="270" r="96"/>
+    <path d="M450 174v192M354 270h192"/>
+  </g>
+  <text x="450" y="440" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, sans-serif"
+        font-size="34" fill="#8b979f">No thumbnail yet</text>
+</svg>
