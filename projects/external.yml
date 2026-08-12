@@ -18,3 +18,14 @@
   date: 2026-08-12
   categories: [Open data, Python]
   image: /images/placeholder.svg
+
+- path: https://github.com/MikeTrizna/quarto_gallery
+  title: "Project 4"
+  description: >
+    Description 4
+  author:
+    - Author 1
+    - Author 2
+  date: 2026-08-12
+  categories: [Open data, Quarto]
+  image: /images/placeholder.svg
