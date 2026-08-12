@@ -6,7 +6,7 @@
     - Molly Corder
   date: 2026-03-14
   categories: [Immunoproteomics, Rhinos, RMarkdown]
-  image: /images/placeholder.svg
+  image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-026-43055-0/MediaObjects/41598_2026_43055_Fig1_HTML.png
 
 - path: https://github.com/MikeTrizna/quarto_gallery
   title: "Project 2"
