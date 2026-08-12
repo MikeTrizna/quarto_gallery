@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this gallery",
+    "section": "",
+    "text": "What this site is for, who’s in the group, and how to get in touch."
+  },
+  {
+    "objectID": "about.html#adding-a-project",
+    "href": "about.html#adding-a-project",
+    "title": "About this gallery",
+    "section": "Adding a project",
+    "text": "Adding a project\n\nMake a folder under projects/ named after the project, with an index.qmd inside it. Copy the front matter from an existing one.\nFill in title, description, author, date, and categories. Those five fields are what the gallery sorts, searches, and filters on — a project with no categories won’t appear under any topic tag.\nDrop a thumbnail.png in the folder (roughly 3:2, 900px wide is plenty) and point image: at it.\nPush to main. The site rebuilds itself.\n\nIf the project has no home here — it’s a repo, a paper, or an app somewhere else — add an entry to projects/external.yml instead of making a page."
+  },
+  {
+    "objectID": "about.html#category-vocabulary",
+    "href": "about.html#category-vocabulary",
+    "title": "About this gallery",
+    "section": "Category vocabulary",
+    "text": "Category vocabulary\nKeep this list short and shared, or the topic filter turns into noise. Current tags:\n\n\n\nTag\nUse it for\n\n\n\n\nOpen data\nPublished, citable datasets"
+  },
+  {
+    "objectID": "projects/project_3/index.html",
+    "href": "projects/project_3/index.html",
+    "title": "Project 3",
+    "section": "",
+    "text": "One or two paragraphs a colleague could read in the hallway. What question the project answers, and what someone else could do with it."
+  },
+  {
+    "objectID": "projects/project_3/index.html#what-it-does",
+    "href": "projects/project_3/index.html#what-it-does",
+    "title": "Project 3",
+    "section": "",
+    "text": "One or two paragraphs a colleague could read in the hallway. What question the project answers, and what someone else could do with it."
+  },
+  {
+    "objectID": "projects/project_3/index.html#status",
+    "href": "projects/project_3/index.html#status",
+    "title": "Project 3",
+    "section": "Status",
+    "text": "Status\nActive. Manuscript in preparation."
+  },
+  {
+    "objectID": "projects/project_3/index.html#where-to-find-it",
+    "href": "projects/project_3/index.html#where-to-find-it",
+    "title": "Project 3",
+    "section": "Where to find it",
+    "text": "Where to find it\n\nCode: github.com/USERNAME/project3\nData: Dataset DOI goes here"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Example gallery",
+    "section": "",
+    "text": "Here are some example projects from groups around NZCBI.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Contributors\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProject 2\n\n\n\nOpen data\n\nPython\n\n\n\nDescription 2\n\n\n\nAuthor 1, Author 2\n\n\nAug 12, 2026\n\n\n\n\n\n\n\n\n\n\n\nProject 3\n\n\n\nRMarkdown\n\nAI\n\nOpen data\n\n\n\nDescription for Project 3\n\n\n\nAuthor 3, Author 4\n\n\nAug 9, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nImmunoproteome\n\n\n\nImmunoproteomics\n\nRhinos\n\nRMarkdown\n\n\n\nThis repository contains R Markdown analysis scripts and their knitted HTML reports for the first immunoproteome published for any endangered mammal species (black…\n\n\n\nMolly Corder\n\n\nMar 14, 2026\n\n\n\n\n\n\nNo matching items"
+  }
+]
