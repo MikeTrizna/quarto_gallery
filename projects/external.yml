@@ -29,3 +29,13 @@
   date: 2026-08-12
   categories: [Open data, Quarto]
   image: /images/placeholder.svg
+
+- path: https://github.com/Alliance-for-Tropical-Forest-Science/DataHarmonization
+  title: Harmonization of Forest Invetory Data
+  description: >
+    This GitHub repository host an app developped to allow multiple groups to share data and collaborate. It is useful when coming up with one central database/standard (like movebank) is not an option (if nobody agrees on a standard or want to have their data hosted by an entity). The main idea is to use the app to create a "profile' which has everything we need to know to understand the data collected (column names, units etc...) and when two colaborators have their profiles ready, they can use the app to translate one dataset into the other or both dataset into one standard (decided by the app), just for the purpouse of their collaboration.
+  author:
+    - Valentine Herrmann (HerrmannV@si.edu)
+  date: 2026-08-12
+  categories: [R Shiny App, data sharing]
+  image: https://github.com/Alliance-for-Tropical-Forest-Science/DataHarmonization/blob/main/inst/app/www/Upload.gif
